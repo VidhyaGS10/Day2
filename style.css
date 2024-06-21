@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+}
+
+#form{
+    border: 2px solid sienna;
+    border-radius: 20px;
+    width: 700px;
+    height: 500px;
+    display: grid;
+    place-items: center;
+}
+
+.button{
+    width: 150px;
+    /* height: 20px; */
+    padding: 10px;
+}
