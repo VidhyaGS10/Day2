@@ -1,5 +1,5 @@
-let billAmt = document.getElementById("billAmt");
-let tipPer = document.getElementById("tipPer");
+let billAmt = parseFloat(document.getElementById("billAmt").value);
+let tipPer = parseFloat(document.getElementById("tipPer").value);
 
 // parseInt(billAmt, parseInt);
 
