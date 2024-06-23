@@ -1,11 +1,15 @@
-let billAmt = parseFloat(document.getElementById("billAmt").value);
-let tipPer = parseFloat(document.getElementById("tipPer").value);
+let billAmt = document.getElementById("billAmt");
+let tipPer = document.getElementById("tipPer");
+let totalAmt = document.getElementById("totalAmt");
 
-// parseInt(billAmt, parseInt);
-
-function calculate(){
-    let tipAmt = billAmt * (tipPer / 100);
-    let totalAmt = billAmt + tipAmt;
-    console.log("Calculating");
-    document.getElementById("totalAmt").innerHTML = totalAmt; 
+function calculate(billAmt, tipPer){
+    let tipPercentage = tipPer/100;
+    // let tipAmt = billAmt * tipPercentage;
+    // const totalAmt = billAmt + tipAmt;
+    // console.log("Calculating");
+    // console.log(totalAmt);
+    console.log(billAmt, tipPer, tipPercentage);
 }
+
+// let text = "Your final price is " + "CA$" + " " + totalAmt;
+// document.innerHTML = text;
